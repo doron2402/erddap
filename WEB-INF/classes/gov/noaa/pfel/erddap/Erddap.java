@@ -1854,10 +1854,10 @@ writer.write(
 
             //getParameters
             //gridded options
-            // String griddedOptions[] = {"(No, I have tabular data.)",
-            //     ".bufr files", ".grib files",  ".hdf files", ".mat files",
-            //     ".nc files",
-            //     "(let's talk)"};
+            String griddedOptions[] = {"(No, I have tabular data.)",
+                ".bufr files", ".grib files",  ".hdf files", ".mat files",
+                ".nc files",
+                "(let's talk)"};
             int griddedOption = Math.max(0, String2.indexOf(griddedOptions,
                 request.getParameter("griddedOption")));
 
